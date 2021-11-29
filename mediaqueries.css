@@ -1,0 +1,109 @@
+@media (min-width:992px){
+    .boxpop{
+        max-width: 350px;
+    }
+    #hebergement{
+        max-width: 61%;
+        max-height: 33%;
+        margin-right: 6%;
+        margin-left: 3%;
+    }
+    .hebergementtitre{
+        flex:1 0 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        }
+    .navbar{
+        top: 2px;
+        right: 0;
+    }
+    .filter{
+        flex-direction: row;
+        flex-wrap: wrap ;
+    }
+    .chien{
+        margin-left: 35% ;
+    }
+    .boxpop{
+        position: center;
+    }
+    .logo{
+        padding-left: 50px;
+    }
+    .CTA{
+        padding-left: 50px;   
+    }
+    .zone{
+        padding-left: 50px; 
+        margin-bottom: 50px;
+    }
+    .titrefilter{
+       margin-left: 50px; 
+    }
+    .fas.fa-info{
+        margin-left: 50px;
+    }
+    .hebergementpopulaire{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .populaire{
+        padding-bottom: 25px;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    .poptitre{
+        width: 100%;
+    }
+    .fas.fa-chart-line{
+        margin-right: 70px;
+    }
+    .boxpop{
+        max-width: 90%;
+        height: 150px;
+    }
+    .imgboxpop{
+        height: 150px;
+        width: 30%;
+    }
+    .titreboxpop{
+        font-size: 22px;
+    }
+    .nuitpop{
+        font-size: 20px;
+    }
+    .gradepop{
+        font-size: 15px ;
+    }
+    #hebergement{
+        width: 90%;
+    }
+    .imgbox{
+        height: 120px;
+        width: 350px;
+    }
+    .titrebox{
+        font-size: 22px;
+    }
+    .nuit{
+        font-size: 18px;
+    }
+    .grade{
+        font-size: 15px;
+    }
+    .hebergementtitre{
+        flex:1 0 70%;
+    }
+    .activitestitre{
+        flex: 1 0 70%;
+    }
+    .liste1{
+        margin-left: 60px;
+    }
+}
