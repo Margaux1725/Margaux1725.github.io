@@ -197,13 +197,16 @@ p.peconomique:hover,p.pfamilial:hover,p.promantique:hover,p.pchien:hover
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 65%;
 }
 .hebergementtitre
 {
     margin-left: 80px;
     margin-top: 45px;
     order:-1;
-    
+    flex:1 0 100%;
 }
 .afficherplus
 {
@@ -212,6 +215,8 @@ p.peconomique:hover,p.pfamilial:hover,p.promantique:hover,p.pchien:hover
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 45px;
+    text-decoration: none; 
+    color: black;
 }
 .fas[data-active="false"] 
 {
