@@ -229,7 +229,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
-    height: 250px;
+    height: 27%;
     width: 28.7%;
     margin: 2.6% 1.7% 2.3% 2.27%;
 }
@@ -286,12 +286,12 @@ body {
 {
     display: flex;
     justify-content: space-between;
-    margin-left: 45px;
-    margin-top: 45px;
+    margin-left: 7%;
+    margin-top: 8%;
 }
 .fas.fa-chart-line
 {
-    margin-right: 45px;
+    margin-right: 7%;
 }
 .boxpop
 {
@@ -320,14 +320,14 @@ body {
 .titreboxpop
 {
     font-size: 125%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .nuitpop
 {
     font-size: 112%;
-    margin-top: 10px;
-    margin-bottom: 15px ;
+    margin-top: 1%;
+    margin-bottom: 1,5% ;
 }
 .gradepop
 {
@@ -348,13 +348,14 @@ span
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
 }
 .actvitestitre
 {
-    
     flex: 1 0 90%;
-    margin-left: 135px;
-    margin-top: 70px;
+    margin-left: 4%;
+    margin-top: 3%;
 }
 .boxactlong
 {
@@ -390,7 +391,6 @@ span
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 0px;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box; 
@@ -423,7 +423,6 @@ span
     height: 100px;
     width: 325px;
     object-fit: cover;
-
 }
 .fatfine
 {
