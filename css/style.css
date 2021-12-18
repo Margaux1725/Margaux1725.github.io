@@ -444,12 +444,13 @@ span
     font-weight: bold;
 }
 /*Footer*/
-footer
-{ 
-    margin-top: 75px;
-    display:flex;
+#ulfooter
+{
+    display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
+    margin-top: 3%;
+    padding-top: 1%;
 }
 .liste
 {
@@ -458,14 +459,14 @@ footer
 }
 .titreliste
 {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-weight: bold;
 }
 .contenulistes
 {
     cursor: pointer;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 160%;
 }
 .liste1{
     list-style-type: none;
