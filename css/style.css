@@ -203,15 +203,16 @@ body {
 .hebergementtitre
 {
     margin-left: 4%;
-    margin-top: 5%;
+    margin-top: 4%;
     flex:1 0 90%;
+    margin-bottom: 0;
+    height: 0%;
 }
 .afficherplus
 {
     width: 100%;
     margin-left: 4%;
     font-size: 115%;
-    margin-bottom: 2%;
     font-weight: bold;
     text-decoration: none; 
     color: black;
@@ -346,10 +347,10 @@ span
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
-    width: 100%;
-    height: 30%;
+    height: auto;
+    width: auto;
 }
 .actvitestitre
 {
@@ -365,8 +366,8 @@ span
     padding: 0px;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
-    box-sizing: border-box;
-    
+    width: 17%;
+    height: 450px;
 }
 .boxactfat
 {
@@ -374,7 +375,8 @@ span
     padding: 0px;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
-    box-sizing: border-box;
+    width: 80%;
+    height: 255px;
 }
 .boxactfine
 {
@@ -384,7 +386,8 @@ span
     padding: 0px;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
-    box-sizing: border-box;
+    width: 80%;
+    height: 160px;
 }
 .boxactjumelle
 {
@@ -393,52 +396,55 @@ span
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
-    box-sizing: border-box; 
+    width: 90%;
+    height: 210px ;
 }
 .imgboxactjumelle
 {
     border-radius: 20px 20px 0px 0px;
-    height: 175px;
-    width: 325px;
     object-fit: cover;
+    width: 100%;
+    height: 72%;
 }
 .imgboxactlong
 {
     border-radius: 20px 20px 0px 0px;
-    height: 450px;
-    width: 315px;
+    height: 90%;
+    width: 100%;
     object-fit: cover;
 }
 .imgboxactfat
 {
     border-radius: 20px 20px 0px 0px;
-    height: 240px;
-    width: 325px;
+    height: 75%;
+    width: 100%;
     object-fit: cover;
 }
 .imgboxactfine
 {
-
     border-radius: 20px 20px 0px 0px;
-    height: 100px;
-    width: 325px;
+    width: 100%;
+    height: 65%;
     object-fit: cover;
+
 }
 .fatfine
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space;
+    width: 20.9%;
 }
 .boxjumelle
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 20.9%;
 }
 .nomboxact
 {
-    margin-left: 20px;
+    margin-left: 5%;
     font-size: 16px;
     font-weight: bold;
 }
