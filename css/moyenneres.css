@@ -1,12 +1,11 @@
 @media screen and (min-width:768px) and (max-width:992px) {
-    html, body {
+   html, body {
         margin: 0;
         padding: 0;
         width: 100%;
         }
     .navbar{
-        top: 2px;
-        right: 0;
+        right: 2%;
     }
     .filter{
         flex-direction: row;
@@ -16,10 +15,14 @@
         margin-left: 35% ;
     }
     .boxpop{
-        position: center;
+        align-self: center;
+    }
+    .poptitre{
+        margin-top: 5%;
     }
     .logo{
-        padding-left: 50px;
+        padding-left: 5%;
+        width: 15%;
     }
     .CTA{
         padding-left: 50px;   
@@ -29,15 +32,14 @@
         margin-bottom: 50px;
     }
     .titrefilter{
-       margin-left: 50px; 
+       margin-left: 7%; 
     }
     .fas.fa-info{
         margin-left: 50px;
     }
     .hebergementpopulaire{
         flex-direction: column-reverse;
-        align-items: center;
-        
+        align-items: center;  
     }
     .populaire{
         padding-bottom: 25px;
@@ -48,24 +50,22 @@
         width: 100%;
     }
     .fas.fa-chart-line{
-        margin-right: 70px;
+        margin-right: 5%;
     }
     .boxpop{
         max-width: 90%;
         height: 150px;
     }
-    .imgboxpop{
-        height: 150px;
-        width: 30%;
-    }
     .titreboxpop{
-        font-size: 22px;
+        font-size: 130%;
     }
     .nuitpop{
-        font-size: 20px;
+        font-size: 115%;
+        margin-top: 4%;
     }
     .gradepop{
-        font-size: 15px ;
+        font-size: 90% ;
+        margin-top: 10%;
     }
     #hebergement{
         width: 90%;
@@ -73,25 +73,46 @@
     }
     .imgbox{
         height: 120px;
-        width: 350px;
     }
     .titrebox{
-        font-size: 22px;
+        font-size: 130%;
     }
     .nuit{
-        font-size: 18px;
+        font-size: 115%;
+        margin-top: 2%;
     }
     .grade{
-        font-size: 15px;
+        font-size: 90%;
+        margin-bottom: 4%;
     }
     .hebergementtitre{
         flex:1 0 70%;
     }
+    .afficherplus{
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+    #activites{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }    
     .activitestitre{
-        flex: 1 0 70%;
+        flex: 1 0 90%;
+        margin-bottom: 30px;
+    }
+    .boxactlong{
+        width: 25%;
+    }
+    .fatfine{
+        width: 25%;
+    }
+    .boxjumelle{
+        width: 75%;
+        flex-direction: row;
     }
     .liste1{
-        margin-left: 60px;
+        margin-left: 6%;
     }
     
 }

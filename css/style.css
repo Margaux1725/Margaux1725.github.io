@@ -217,6 +217,9 @@ body {
     text-decoration: none; 
     color: black;
 }
+.afficherplus:hover{
+    text-decoration: underline
+}
 .fas[data-active="false"] 
 {
     color: #d9d9d9;
@@ -259,6 +262,9 @@ body {
     margin: 0 0 0 5%;
     font-size: 77%;
     color: #0065FC;
+}
+.box:hover {
+    transform: scale(1.05); 
 }
 /*Bloc populaire*/
 .hebergementpopulaire
@@ -306,6 +312,9 @@ body {
     height: 23%;
     width: 81.6%;
 }
+.boxpop:hover {
+    transform: scale(1.05); 
+}
 .imgboxpop
 {
     margin-right: 20px;
@@ -352,7 +361,7 @@ span
     height: auto;
     width: auto;
 }
-.actvitestitre
+.activitestitre
 {
     flex: 1 0 90%;
     margin-left: 4%;
@@ -369,6 +378,9 @@ span
     width: 17%;
     height: 450px;
 }
+.boxactlong:hover {
+    transform: scale(1.05); 
+}
 .boxactfat
 {
     background-color: white;
@@ -377,6 +389,9 @@ span
     box-shadow: 0 0 16px #0000002e;
     width: 80%;
     height: 255px;
+}
+.boxactfat:hover {
+    transform: scale(1.05); 
 }
 .boxactfine
 {
@@ -389,6 +404,9 @@ span
     width: 80%;
     height: 160px;
 }
+.boxactfine:hover {
+    transform: scale(1.05); 
+}
 .boxactjumelle
 {
     display: flex;
@@ -398,6 +416,9 @@ span
     box-shadow: 0 0 16px #0000002e;
     width: 90%;
     height: 210px ;
+}
+.boxactjumelle:hover {
+    transform: scale(1.05); 
 }
 .imgboxactjumelle
 {
@@ -476,6 +497,9 @@ span
 .liste1{
     list-style-type: none;
     margin-left: 10%;
+}
+.contenulistes:hover{
+    text-decoration: underline;
 }
 
 
