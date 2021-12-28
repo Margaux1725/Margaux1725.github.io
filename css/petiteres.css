@@ -1,6 +1,11 @@
 @media screen and (max-width:767px) {
     .logo{
-       
+        align-self: center;
+        height: 60px;
+        width: 20%;
+    }
+    header{
+       flex-direction: column;
     }
 
 }
