@@ -2,10 +2,96 @@
     .logo{
         align-self: center;
         height: 60px;
-        width: 20%;
+        width: 27%;
+        margin-bottom: 15px;
     }
     header{
        flex-direction: column;
     }
-
+    .hebergementbouton{
+        border-top : none;
+        border-bottom: 2px solid #0065FC;
+        padding : 0 ;
+        width: 50%;
+        
+    }
+    .activitebouton{
+        border-top : none;
+        border-bottom: 2px solid #F2F2F2;
+        padding : 0 ;
+        width: 50%;
+        
+    }
+    .submit{
+        display: none;
+    }
+    /*.fa-solid.fa-magnifying-glass{
+        color: black;
+        width: 5%;
+        height: 10px;
+    }*/
+    .recherche{
+        
+    }
+    .filter{
+        flex-wrap: wrap;
+    }
+    .hebergementpopulaire{
+        flex-direction: column-reverse;
+    }
+    .populaire{
+        width: 100%;
+        border-radius: 0%;
+    }
+    .imgboxpop{
+       height: auto; 
+    }
+    .boxpop{
+        width: 90%;
+        height: 150px;
+    }
+    #hebergement{
+        width: 100%;
+        background: none;
+        flex-direction: column ;    
+    }
+    .box{
+        width: 90%;
+        height: 200px;
+    }
+    .imgbox{
+        width: 98%;
+        height: 56.9%;
+    }
+    #activites{
+        flex-direction: column;
+        align-content: center;
+    }
+    .boxactlong{
+        width: 90%;
+        height: 200px;
+    }
+    .boxactfat{
+        width: 90%;
+        height: 200px;
+    }
+    .boxactjumelle{
+        width: 90%;
+        height: 200px;
+    }
+    .boxactfine{
+        width: 90%;
+        height: 200px;
+    }
+    .fatfine{
+        width: 100%;
+    }
+    .boxjumelle{
+        width: 100%;
+    }
+    #ulfooter
+    {
+    display: flex;
+    flex-direction:column;
+    }
 }

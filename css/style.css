@@ -57,7 +57,7 @@ header{
     border-top : 2px solid #0065FC;
 }
 /*CTA*/
-.CTA
+h1
 {
     font-size: 130%;
     font-weight: bold;
@@ -65,7 +65,7 @@ header{
     margin-bottom: 1%; 
 }
 
-.zone
+.CTA2 p
 {
     padding:0px 0px 0px 3.8% ; 
     font-size: 130%;
@@ -76,7 +76,6 @@ header{
 {
     max-width: 100%;
     display: inline-flex;
-    /*font-size: 115%;*/
     margin-left: 3.8%;
     height: 2.7%;
 }
@@ -118,6 +117,7 @@ header{
     font-weight: bold;
     color: black;
     padding-left: 7%;
+    margin-left: 6%;
 }
 /*Filtres*/
 .filter
@@ -132,7 +132,7 @@ header{
     margin-left: 4.4%; 
     margin-right: 2.2%;  
 }
-.fas.fa-money-bill-wave,.fas.fa-child,.fas.fa-heart,.fas.fa-dog
+.filter i
 {
     color: #0065FC;
     font-size: 18px;
@@ -149,7 +149,7 @@ header{
     
 }
 
-.pfiltre
+.filter p
 {
     display : flex;
     margin : none;

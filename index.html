@@ -2,6 +2,7 @@
     <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Booki</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" media="screen and (max-width:767px)" href="css/petiteres.css" type="text/css"/>
@@ -17,20 +18,21 @@
         <header>
             <img src="images/logo/Booki.png" class="logo" alt="logo" href="#"/>
             <nav class="navbar">              
-                <a class="hebergementbouton" href="#hebergement">Hébergements</a>         
+                <a class="hebergementbouton" href="#hbergement">Hébergements</a>         
                 <a class="activitebouton" href="#activites">Activités</a>               
             </nav>
         </header>
             <!-- CTA  -->
          <div class="CTA2">
-            <h1 class="CTA">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="zone">En plein centre ville ou en pleine nature</p> 
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p> 
          </div>
             <!-- Bar de recherche  -->
          <form class="Recherche">
              <i class="fas fa-map-marker-alt"></i> 
              <input type="search" name="text" class="search" placeholder="Marseille, France"> 
              <input type="submit" name="submit" class="submit" value="Rechercher"> 
+             <i class="fa-solid fa-magnifying-glass"></i>
          </form>
             <!-- Filtres -->
         <div class="filter">
@@ -39,19 +41,19 @@
 
             <div class="filtre">
                 <i class="fas fa-money-bill-wave"></i> 
-                <p class="pfiltre">Économique</p> 
+                <p>Économique</p> 
             </div>
             <div class="filtre"> 
                 <i class="fas fa-child"></i>
-                <p class="pfiltre">Familial</p> 
+                <p>Familial</p> 
             </div>
             <div class="filtre">
                 <i class="fas fa-heart"></i> 
-                <p class="pfiltre">Romantique</p>
+                <p>Romantique</p>
             </div>
             <div class="chien">
                 <i class="fas fa-dog"></i>
-                <p class="pfiltre">Animaux autorisés</p> 
+                <p>Animaux autorisés</p> 
             </div>
         </div>
             <!-- icone info + info logements dispo -->
@@ -243,7 +245,7 @@
 </body>
     <!--footer-->
     <footer>
-        <nav id="ulfooter">
+        <div id="ulfooter">
         <ul class="liste1">
             <li class="titreliste">A propos</li>
             <li href="#" class="contenulistes">Fonctionement du site</li>
@@ -260,7 +262,7 @@
             <li href="#" class="contenulistes">Centre d'aide</li>
             <li href="#" class="contenulistes">Nous contacter</li>
         </ul> 
-        </nav>
+    </div>
     </footer>
 
 
