@@ -24,7 +24,7 @@
         padding-left: 5%;
         width: 15%;
     }
-    .CTA{
+    h1{
         padding-left: 50px;   
     }
     .zone{
@@ -46,8 +46,11 @@
         margin-bottom: 40px;
         width: 90%;
     }
-    .poptitre{
+    .populaire h2{
         width: 100%;
+    }
+    .gradepop{
+        font-size: 50%;
     }
     .fas.fa-chart-line{
         margin-right: 5%;

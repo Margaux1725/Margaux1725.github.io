@@ -1,26 +1,49 @@
 @media screen and (max-width:767px) {
+    body{
+        max-width: 100%;
+    }
     .logo{
         align-self: center;
-        height: 60px;
+        height: 50px;
         width: 27%;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     header{
        flex-direction: column;
+    }
+    .navbar{
+        margin-right: 0;
     }
     .hebergementbouton{
         border-top : none;
         border-bottom: 2px solid #0065FC;
         padding : 0 ;
         width: 50%;
-        
+        display: flex;
+        flex-direction: column;  
+        align-items: center;   
+        font-size: 110%; 
+        padding-bottom: 15px;  
     }
     .activitebouton{
         border-top : none;
         border-bottom: 2px solid #F2F2F2;
         padding : 0 ;
         width: 50%;
-        
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+        font-size: 110%;
+        padding-bottom: 15px; 
+
+    }
+    h1{
+        font-size: 120%;
+        margin: 25px 10% 15px 3%;
+    }
+    .CTA2 p{
+        font-size: 100%;
+        margin-left: 3%;
     }
     .submit{
         display: none;
@@ -35,13 +58,51 @@
     }
     .filter{
         flex-wrap: wrap;
+        margin-left: 5%;
+    }
+    .titrefilter{
+        margin-left: 7%;
+        font-size: 100%;
+        width: 100%;
+    }
+    .filter p{
+        font-size: 100%;
+        padding: 10px 25px 10px 45px ;
+    }
+    .filter i{
+        font-size: 100%;
+        height: 42px;
+        width: 42px;
+    }
+    .info p{
+        font-size: 77%;
+    } 
+    .info i{
+        height: 15px;
+        width: 22px;
+        margin-right: 10px;
     }
     .hebergementpopulaire{
         flex-direction: column-reverse;
+        margin: none;  
+    }
+    .populaire h2{
+        padding-left: 4%;
+    }
+    .populaire i{
+        padding-right: 3%;
     }
     .populaire{
         width: 100%;
         border-radius: 0%;
+    }
+    .titreboxpop{
+        font-size: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .nuitpop{
+        font-size: 85%;
     }
     .imgboxpop{
        height: auto; 
@@ -53,7 +114,12 @@
     #hebergement{
         width: 100%;
         background: none;
-        flex-direction: column ;    
+        flex-direction: column ; 
+        margin: none;   
+    }
+    .hebergementtitre{
+        margin-top: 25px;
+        margin-bottom: 20px;
     }
     .box{
         width: 90%;
@@ -63,25 +129,56 @@
         width: 98%;
         height: 56.9%;
     }
+    .titrebox{
+        font-size: 105% ;
+        margin-top: 10px;
+    }
+    .nuit{
+        font-size: 90%;
+    }
+    .grade{
+        font-size: 70%;
+    }
+    .afficherplus{
+        margin-top: 20px;
+        margin-left: 3%;
+        margin-bottom: 20px;
+        font-size: 100%;
+    }
     #activites{
         flex-direction: column;
         align-content: center;
+    }
+    .activitestitre{
+        margin-left: 12%;
     }
     .boxactlong{
         width: 90%;
         height: 200px;
     }
+    .imgboxactlong{
+        height: 75%;
+    }
     .boxactfat{
         width: 90%;
         height: 200px;
+    }
+    .imgboxactfat{
+        height: 75%;
     }
     .boxactjumelle{
         width: 90%;
         height: 200px;
     }
+    .imgboxactjumelle{
+        height: 75%;
+    }
     .boxactfine{
         width: 90%;
         height: 200px;
+    }
+    .imgboxactfine{
+        height: 75%;
     }
     .fatfine{
         width: 100%;
@@ -89,9 +186,15 @@
     .boxjumelle{
         width: 100%;
     }
+    .nomboxact{
+        font-size: 90%;
+    }
     #ulfooter
     {
     display: flex;
     flex-direction:column;
+    }
+    .liste{
+        margin-left: 2%;
     }
 }

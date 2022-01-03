@@ -177,7 +177,7 @@ h1
     margin-left: 4.1%;
     margin-bottom:2%;
 }
-.fas.fa-info
+.info i
 {
     display: flex;
     align-items: center;
@@ -293,7 +293,7 @@ h1
     justify-content: flex-start ;
     align-content: center;
 }
-.poptitre
+.populaire h2
 {
     display: flex;
     justify-content: space-between;
