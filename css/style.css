@@ -14,7 +14,6 @@ html { padding:0; height:100%; width: 100%; }
 body { 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /*Logo Booki*/
 header{
@@ -163,7 +162,7 @@ h1
     transition-duration: 0.5s ;
     font-size: 22px;
 }
-.pfiltre:hover
+.filter p:hover
 {
     background-color: #F2F2F2;
     
