@@ -105,6 +105,7 @@
 /*Blocs*/
     .hebergementpopulaire{
         flex-direction: column-reverse;
+        max-height: none;
     }
 /*Bloc populaire*/
 
