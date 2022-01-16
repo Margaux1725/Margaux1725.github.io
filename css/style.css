@@ -109,7 +109,9 @@ h1
     font-size: 110%;
     padding: 0 5% 0 5%;
 }
-
+.fas.fa-search{
+    display: none;
+}
 
 ::placeholder
 {

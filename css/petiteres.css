@@ -50,8 +50,29 @@
         margin-left: 3%;
     }
 /*Barra de recherche*/
+    .Recherche{
+        display: flex;
+        align-self: center;
+        margin-left: 7%;
+    }
     .submit{
         display: none;
+    }
+    .search.fas.fa-search{
+        display: flex;
+
+    }
+    .fas.fa-search{
+        display: contents;
+        background-color: #0065FC;
+        font-size: 115%;
+        padding: 5% 5% 5% 5%;
+        display: flex;
+        color: white;
+        border-radius: 15px;
+        position: absolute;
+        right: 7%;
+        height: 15px;
     }
 /*Filtre*/
     .filter{
@@ -116,6 +137,7 @@
         background: none;
         flex-direction: column ; 
         margin: none;   
+        align-content: center
     }
     .hebergementtitre{
         margin-top: 25px;
@@ -135,9 +157,6 @@
     }
     .nuit{
         font-size: 90%;
-    }
-    .grade{
-        font-size: 100%;
     }
     .afficherplus{
         margin-top: 20px;
@@ -195,6 +214,9 @@
     {
     display: flex;
     flex-direction:column;
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    margin-top: 25px;
     }
     .liste{
         margin-left: 2%;
