@@ -4,9 +4,16 @@
         padding: 0;
         width: 100%;
         }
+/*Logo*/
+.logo{
+    padding-left: 5%;
+    width: 15%;
+}
+/*Barre de recherche*/
     .navbar{
         right: 2%;
     }
+/*Filtres*/
     .filter{
         flex-direction: row;
         flex-wrap: wrap ;
@@ -14,28 +21,15 @@
     .chien{
         margin-left: 35% ;
     }
+    .titrefilter{
+        margin-left: 7%; 
+     }
+/*Bloc populaire*/
     .boxpop{
         align-self: center;
     }
     .poptitre{
         margin-top: 5%;
-    }
-    .logo{
-        padding-left: 5%;
-        width: 15%;
-    }
-    h1{
-        padding-left: 50px;   
-    }
-    .zone{
-        padding-left: 50px; 
-        margin-bottom: 50px;
-    }
-    .titrefilter{
-       margin-left: 7%; 
-    }
-    .fas.fa-info{
-        margin-left: 50px;
     }
     .hebergementpopulaire{
         flex-direction: column-reverse;
@@ -52,9 +46,6 @@
     .gradepop{
         font-size: 50%;
     }
-    .fas.fa-chart-line{
-        margin-right: 5%;
-    }
     .boxpop{
         max-width: 90%;
         height: 150px;
@@ -70,6 +61,23 @@
         font-size: 90% ;
         margin-top: 10%;
     }
+/*CTA*/
+    h1{
+        padding-left: 50px;   
+    }
+    .zone{
+        padding-left: 50px; 
+        margin-bottom: 50px;
+    }
+/*Info*/
+    .fas.fa-info{
+        margin-left: 50px;
+    }
+
+    .fas.fa-chart-line{
+        margin-right: 5%;
+    }
+/*Bloc hébergement*/
     #hebergement{
         width: 90%;
         max-width: 90%;
@@ -95,6 +103,7 @@
         margin-bottom: 5%;
         margin-top: 3%;
     }
+/*Bloc activité*/
     #activites{
         margin-top: 50px;
         display: flex;
@@ -114,6 +123,7 @@
         width: 75%;
         flex-direction: row;
     }
+/*Footer*/
     .liste1{
         margin-left: 6%;
     }

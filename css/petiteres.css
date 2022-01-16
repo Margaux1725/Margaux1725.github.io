@@ -1,7 +1,9 @@
 @media screen and (max-width:767px) {
-    body{
+    html,body{
         max-width: 100%;
+        overflow-x: hidden;
     }
+/*Logo*/
     .logo{
         align-self: center;
         height: 50px;
@@ -11,6 +13,7 @@
     header{
        flex-direction: column;
     }
+/*Boutons navigation*/
     .navbar{
         margin-right: 0;
     }
@@ -37,6 +40,7 @@
         padding-bottom: 15px; 
 
     }
+/*CTA*/
     h1{
         font-size: 120%;
         margin: 25px 10% 15px 3%;
@@ -45,17 +49,11 @@
         font-size: 100%;
         margin-left: 3%;
     }
+/*Barra de recherche*/
     .submit{
         display: none;
     }
-    /*.fa-solid.fa-magnifying-glass{
-        color: black;
-        width: 5%;
-        height: 10px;
-    }*/
-    .recherche{
-        
-    }
+/*Filtre*/
     .filter{
         flex-wrap: wrap;
         margin-left: 5%;
@@ -74,6 +72,7 @@
         height: 42px;
         width: 42px;
     }
+/*Info*/
     .info p{
         font-size: 77%;
     } 
@@ -82,15 +81,14 @@
         width: 22px;
         margin-right: 10px;
     }
+/*Blocs*/
     .hebergementpopulaire{
         flex-direction: column-reverse;
-        margin: none;  
     }
+/*Bloc populaire*/
+
     .populaire h2{
         padding-left: 4%;
-    }
-    .populaire i{
-        padding-right: 3%;
     }
     .populaire{
         width: 100%;
@@ -106,11 +104,13 @@
     }
     .imgboxpop{
        height: auto; 
+    
     }
     .boxpop{
         width: 90%;
         height: 150px;
     }
+/*Bloc hébergement*/
     #hebergement{
         width: 100%;
         background: none;
@@ -137,7 +137,7 @@
         font-size: 90%;
     }
     .grade{
-        font-size: 70%;
+        font-size: 100%;
     }
     .afficherplus{
         margin-top: 20px;
@@ -145,6 +145,7 @@
         margin-bottom: 20px;
         font-size: 100%;
     }
+/*Bloc activités*/
     #activites{
         flex-direction: column;
         align-content: center;
@@ -189,7 +190,8 @@
     .nomboxact{
         font-size: 90%;
     }
-    #ulfooter
+/*Footer*/
+    footer
     {
     display: flex;
     flex-direction:column;

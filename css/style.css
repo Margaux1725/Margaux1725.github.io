@@ -473,7 +473,7 @@ span
     font-weight: bold;
 }
 /*Footer*/
-#ulfooter
+footer
 {
     display: flex;
     flex-direction: row;
