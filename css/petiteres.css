@@ -46,12 +46,12 @@
         font-size: 120%;
         margin: 25px 10% 15px 3%;
     }
-    .CTA2 p{
+    #CTA2 p{
         font-size: 100%;
         margin-left: 3%;
     }
 /*Barra de recherche*/
-    .Recherche{
+    #Recherche{
         display: flex;
         align-self: center;
         margin-left: 7%;
@@ -76,7 +76,7 @@
         height: 15px;
     }
 /*Filtre*/
-    .filter{
+    #filter{
         flex-wrap: wrap;
         margin-left: 5%;
     }
@@ -85,26 +85,26 @@
         font-size: 100%;
         width: 100%;
     }
-    .filter p{
+    #filter p{
         font-size: 100%;
         padding: 10px 25px 10px 45px ;
     }
-    .filter i{
+    #filter i{
         font-size: 100%;
         height: 42px;
         width: 42px;
     }
 /*Info*/
-    .info p{
+    #info p{
         font-size: 77%;
     } 
-    .info i{
+    #info i{
         height: 15px;
         width: 22px;
         margin-right: 10px;
     }
 /*Blocs*/
-    .hebergementpopulaire{
+    #hebergementpopulaire{
         flex-direction: column-reverse;
         max-height: none;
     }
