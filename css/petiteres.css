@@ -1,7 +1,6 @@
 @media screen and (max-width:767px) {
     html,body{
         max-width: 100%;
-        overflow-x: hidden;
         pointer-events:none;
     }
 /*Logo*/
@@ -107,6 +106,7 @@
     #hebergementpopulaire{
         flex-direction: column-reverse;
         max-height: none;
+       
     }
 /*Bloc populaire*/
 
@@ -132,18 +132,20 @@
     .boxpop{
         width: 90%;
         height: 150px;
+        margin: 16px 0 16px 0;
     }
 /*Bloc hébergement*/
     #hebergement{
         width: 100%;
         background: none;
         flex-direction: column ; 
-        margin: none;   
+        margin: 0 0 0 0;   
         align-content: center
     }
     .hebergementtitre{
         margin-top: 25px;
         margin-bottom: 20px;
+        max-width: 80%;
     }
     .box{
         width: 90%;
@@ -165,14 +167,17 @@
         margin-left: 3%;
         margin-bottom: 20px;
         font-size: 100%;
+        max-width: 40%;
     }
 /*Bloc activités*/
     #activites{
         flex-direction: column;
         align-content: center;
+        
     }
     .activitestitre{
-        margin-left: 12%;
+        margin-left: 10%;
+        max-width: 60% ;
     }
     .boxactlong{
         width: 90%;
