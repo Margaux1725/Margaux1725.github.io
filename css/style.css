@@ -126,7 +126,6 @@ input[type="search" i] {
 /*Filtres*/
 #filter
 {
-    padding: none;
     display: flex;
     margin-top: 1.6%; 
 }
@@ -156,7 +155,6 @@ input[type="search" i] {
 #filter p
 {
     display : flex;
-    margin : none;
     font-weight: bold;
     border: solid #F2F2F2 2px ;
     padding: 10px 35px 10px 60px ;
@@ -193,7 +191,6 @@ input[type="search" i] {
     border : solid #F2F2F2 ;
     border-radius: 50%; 
     margin-right: 0.8%;
-    padding: none;
 }
 /*Blocs*/
 #hebergementpopulaire
@@ -350,7 +347,7 @@ input[type="search" i] {
 {
     font-size: 112%;
     margin-top: 1%;
-    margin-bottom: 1,5% ;
+    margin-bottom: 1.5%;
 }
 .gradepop
 {
@@ -466,7 +463,6 @@ span
 {
     display: flex;
     flex-direction: column;
-    justify-content: space;
     width: 20.9%;
 }
 .boxjumelle
