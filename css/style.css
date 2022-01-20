@@ -368,8 +368,6 @@ span
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
-    height: auto;
-    width: auto;
 }
 .activitestitre
 {
